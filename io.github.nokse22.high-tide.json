@@ -12,7 +12,8 @@
         "--socket=wayland",
         "--socket=pulseaudio",
         "--filesystem=xdg-run/pipewire-0:ro",
-        "--filesystem=xdg-run/app/com.discordapp.Discord:create"
+        "--filesystem=xdg-run/app/com.discordapp.Discord:create",
+        "--filesystem=xdg-run/discord-ipc-0"
     ],
     "cleanup": [
         "/include",
