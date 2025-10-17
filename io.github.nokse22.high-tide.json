@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.nokse22.high-tide",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "high-tide",
     "finish-args": [
@@ -27,10 +27,10 @@
         "*.a"
     ],
     "modules": [
-        "gstreamer.json",
         "libportal.json",
         "blueprint-compiler.json",
         "python3-pypresence.json",
+        "python3-six.json",
         "python3-tidalapi.json",
         {
             "name": "high-tide",
