@@ -27,6 +27,7 @@
         "*.a"
     ],
     "modules": [
+        "gstreamer.json",
         "libportal.json",
         "blueprint-compiler.json",
         "python3-pypresence.json",
