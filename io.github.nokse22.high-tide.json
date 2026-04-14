@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.nokse22.high-tide",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "high-tide",
     "finish-args": [
@@ -37,7 +37,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Nokse22/high-tide.git",
-                    "tag": "v1.2.0"
+                    "tag": "v1.3.0"
                 }
             ]
         }
