@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.nokse22.high-tide",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "high-tide",
     "finish-args": [
@@ -15,20 +15,11 @@
         "--filesystem=xdg-run/app/com.discordapp.Discord:create",
         "--filesystem=xdg-run/discord-ipc-0"
     ],
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/share/gir-1.0",
-        "/share/vala"
-    ],
     "cleanup-commands": [
         "python3 -m compileall --invalidation-mode=unchecked-hash /app"
     ],
     "modules": [
-        "libportal.json",
-        "python3-pypresence.json",
-        "python3-six.json",
-        "python3-tidalapi.json",
+        "python3-requirements.json",
         {
             "name": "high-tide",
             "builddir": true,
@@ -37,7 +28,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Nokse22/high-tide.git",
-                    "tag": "v1.5.0"
+                    "tag": "v1.5.0",
+                    "commit": "a8949907d78c1212504b759df268b7d228ad59cb"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }
