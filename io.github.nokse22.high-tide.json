@@ -28,8 +28,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Nokse22/high-tide.git",
-                    "tag": "v1.6.0",
-                    "commit": "7634faf73bee96d8ac4979f28af1809fed66f194"
+                    "tag": "v1.7.0",
+                    "commit": "d64e7ddc1c32a7058e0e5beebbaecb03495166cb"
                 }
             ]
         }
